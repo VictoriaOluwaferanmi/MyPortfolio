@@ -5,7 +5,6 @@ import { NonAuthRoutes } from "./url";
 
 const Home = React.lazy(() => import("./Home"));
 
-const About = React.lazy(() => import("./About"));
 const Services = React.lazy(() => import("./Services"));
 const Projects = React.lazy(() => import("./Projects"));
 const Contact = React.lazy(() => import("./Contact"));
@@ -26,7 +25,6 @@ function Routers() {
         <Routes>
           <Route path={NonAuthRoutes.Home} element={<Home />} />
 
-          <Route path={NonAuthRoutes.About} element={<About />} />
           <Route path={NonAuthRoutes.Services} element={<Services />} />
           <Route path={NonAuthRoutes.Projects} element={<Projects />} />
           <Route path={NonAuthRoutes.Contact} element={<Contact />} />
