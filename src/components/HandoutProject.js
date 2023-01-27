@@ -40,18 +40,69 @@ const HandoutProject = () => {
           </p>
           <p className="py-5  md:text-[24px]">
             This project was a housemanship program undergone at Stutern, a team
-            based project developed by a group of designers and developers
+            based project developed by a group of UI/UX designers and developers
             (front end and back end) and also led by a teamlead. The project was
-            built bottom-Up. ClickUp was used for the breakdown of tasks and to
-            assign task to developers. Github was used for collaboration, all
-            developers deploy their code and all code were merged together.
+            built bottom-Up.
+            <p>
+              I participated in the project development processes including
+              defining, designing/prototyping, development, Testing,
+              Implementation, Integration, and deployment. I worked on building
+              the designs (prototype), their responsiveness, functionalities,
+              integration, deployment, and aswel documentation.
+            </p>
+            ClickUp was used for the breakdown of tasks and to assign task to
+            developers. Github was used for collaboration, all developers deploy
+            their code and all code were merged together.
           </p>
         </div>
       </div>
-      <a href="/">
+      <div className="Summary">
+        <h1 className="Summary  text-[30px] font-bold">Summary of work done</h1>
+        <p className="py-5  md:text-[24px]">
+          Working together with team of frontend developers, task assigned to me
+          as a frontend developer was to work on different web pages, the layout
+          and its functionalities. For every task, I wrote an
+          article/documentation on how I developed the webpages and its
+          functionalities.
+          <a
+            className=" underline text-[16px]"
+            href="https://victoriaoluwaferanmi.medium.com/stutern-housemanship-handout-documentation-by-abodunrin-victoria-8a838b1676a8 "
+          >
+            {" "}
+            Link the article{" "}
+          </a>
+        </p>
+        <h1 className="Summary  text-[24px] font-bold">Technologies used</h1>
+        <p className="py-5  md:text-[24px]">
+          All UserInterfaces and User Experience design was built using Figma
+          Handout was built with <b>React</b> , majorly styled with
+          <b>Tailwind css </b> and <b>Javascript</b> for its functionalities.
+          Some other frontend technologies/libaries were used just to mention a
+          few, Material Icon, (to handle Api's), JS cookie, Swagger, Ant Design,
+          etc.{" "}
+          <a
+            className=" underline text-[16px]"
+            href="https://github.com/StuternHousemanship/HANDOUT-Frontend-Project-Team1.1.git "
+          >
+            {" "}
+            Link to project code
+          </a>
+          <p>
+            After development it was sucessfully hosted i.e live.
+            <a
+              className=" underline text-[16px]"
+              href="https://stutern-handout.web.app/"
+            >
+              {" "}
+              Click to view
+            </a>
+          </p>
+        </p>
+      </div>
+      <a href="/" className="text-center">
         <button
-          className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg"
+          className="rounded-lg px-4 py-3 m-2
+           bg-white text-gray-700 font-bold text-lg text-center"
         >
           Next Project
         </button>
