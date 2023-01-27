@@ -9,14 +9,16 @@ const Project = () => {
   return (
     <div
       name="work"
-      className="w-full md:h-screen text-gray-300 bg-black  md:px-20"
+      className="w-full md:h-screen text-white bg-black  md:px-20"
     >
       <div className="max-w-[1000px] p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 text-gray-300">
+          <p className="text-4xl font-bold inline border-b-4 text-white">
             Projects
           </p>
-          <p className="py-6">Check out some of my recent work</p>
+          <h1 className="text-4xl md:text-[32px] font-bold text-transparent leading-2 pt-[5px] bg-clip-text bg-gradient-to-r from-fuchsia-800 via-red-500 to-orange-400">
+            Check out some of my recent works
+          </h1>
         </div>
 
         {/* container for projects */}

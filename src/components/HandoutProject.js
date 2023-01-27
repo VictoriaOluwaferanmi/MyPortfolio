@@ -99,10 +99,10 @@ const HandoutProject = () => {
           </p>
         </p>
       </div>
-      <a href="/" className="text-center">
+      <a href="/" className="text-center ">
         <button
           className="rounded-lg px-4 py-3 m-2
-           bg-white text-gray-700 font-bold text-lg text-center"
+           bg-white text-gray-700 font-bold text-lg text-center text-[30px] "
         >
           Next Project
         </button>
