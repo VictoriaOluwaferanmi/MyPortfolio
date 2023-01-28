@@ -79,14 +79,14 @@ const Experience = () => {
   ];
 
   return (
-    <div id="experience" className=" w-full  md:px-20 md:my-20">
+    <div id="experience" className="px-10 my-10 w-full  md:px-20 md:my-20">
       <div className=" flex flex-col justify-center w-full h-full text-white ">
         <section className="container items-center lg:flex">
           <div className="w-1/2 ">
-            <h1 className="text-4xl md:text-[32px] font-bold text-transparent leading-2 pr-[5px] bg-clip-text bg-gradient-to-r from-fuchsia-800 via-red-500 to-orange-400">
+            <h1 className=" text-[24px] md:text-[32px] font-bold text-transparent leading-2 pr-[5px] bg-clip-text bg-gradient-to-r from-fuchsia-800 via-red-500 to-orange-400">
               A Frontend Developer
             </h1>
-            <h1 className="text-[30px]">That's Me</h1>
+            <h1 className="text-[16px] md:text-[30px]">That's Me</h1>
           </div>
 
           <div className=" w-full md:w-1/2 pt-5">

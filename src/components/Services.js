@@ -16,7 +16,7 @@ const Services = () => {
             passionate and focused on building user Interfaces.
           </p>
 
-          <div className="items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start ">
+          <div className="items-center justify-center space-y-3 sm:space-x-6 sm:space-y-2 sm:flex lg:justify-start ">
             <button
               className="block px-6 py-2 text-center text-white transition ease-out delay-150 bg-gradient-to-r from-fuchsia-800 via-red-500 to-orange-400 hover:-translate-y-1 hover:scale-110 hover:bg-white duration-300  rounded-md  "
               href="#contact"
