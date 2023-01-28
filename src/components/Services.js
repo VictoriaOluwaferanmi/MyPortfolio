@@ -3,7 +3,7 @@ import image from "../assests/passport.png";
 import Experience from "./Experience";
 const Services = () => {
   return (
-    <div className="  md:px-20 md:py-10" id="services">
+    <div className="  px-10 md:px-20 md:py-10" id="services">
       <section className="container items-center lg:flex">
         <div className="flex-1 w-full space-y-4 sm:text-center lg:text-left md:w-1/2 md:mt-20">
           <h1 className="w-full text-4xl md:text-[72px] font-bold text-transparent leading-2 pr-[5px] bg-clip-text bg-gradient-to-r from-fuchsia-800 via-red-500 to-orange-400 md:py-10">
