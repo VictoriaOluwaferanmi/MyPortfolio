@@ -83,28 +83,28 @@ const Navbar = () => {
           <div className="bg-black py-4 md:hidden">
             <div className="container mx-auto px-4">
               <a
-                href="#"
+                href="#experience"
                 className="block px-3 py-2 rounded-full text-white hover:text-[#676767]"
               >
                 About
               </a>
               <a
-                href="#"
+                href="https://victoriaoluwaferanmi.medium.com/"
                 className="block px-3 py-2 rounded-full text-white hover:text-[#676767]"
               >
-                Services
+                Articles
               </a>
               <a
-                href="#"
+                href="#projects"
                 className="block px-3 py-2 rounded-full text-white hover:text-[#676767]"
               >
                 Projects
               </a>
               <a
-                href="#"
+                href="#contact"
                 className="block px-3 py-2 rounded-full text-white hover:text-[#676767]"
               >
-                Book a call
+                Contact
               </a>
             </div>
           </div>

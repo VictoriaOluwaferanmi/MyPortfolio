@@ -91,7 +91,7 @@ const Experience = () => {
 
           <div className=" w-full md:w-1/2 pt-5">
             <p className="text-justify leading-relaxed ">
-              My front-end jourrney started with <b> Stutern </b> in the year
+              My front-end journey started with <b> Stutern </b> in the year
               2022. Where I learned the fundamentals up to an advanced level of
               software engineering. In the process of learning, I was not only
               skilled with recent front-end technologies but also with human

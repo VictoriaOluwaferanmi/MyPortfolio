@@ -1,7 +1,6 @@
 import Navbar from "./Navbar";
 import Services from "./Services";
 import Contact from "./Contact";
-import Experience from "./Experience";
 import Bot from "./Bot";
 import Footer from "./Footer";
 import Projects from "./Projects";
@@ -15,7 +14,6 @@ function Home() {
       <main>
         <Bot />
         <Services />
-        <Experience />
         <Projects />
         <Contact />
       </main>
