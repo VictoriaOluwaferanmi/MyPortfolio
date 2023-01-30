@@ -3,7 +3,7 @@ import proImg from "../assests/top-nav.png";
 
 const HandoutProject = () => {
   return (
-    <div className="md:mx-20 mt-6">
+    <div className="mx-1 md:mx-20 mt-6">
       <div className=" flex w-full ">
         <div className="w-1/2 py-5">
           <h3 className="text-[24px] font-bold text-transparent leading-2 pr-[5px] bg-clip-text bg-gradient-to-r from-fuchsia-800 via-red-400 to-orange-700 py-2 ">

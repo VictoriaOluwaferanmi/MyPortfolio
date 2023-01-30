@@ -79,7 +79,7 @@ const Experience = () => {
   ];
 
   return (
-    <div id="experience" className="px-10 my-10 w-full  md:px-20 md:my-20">
+    <div id="experience" className="mx-1 my-10 w-full  md:px-20 md:my-20">
       <div className=" flex flex-col justify-center w-full h-full text-white ">
         <section className="container items-center lg:flex">
           <div className="w-full md:w-1/2 ">
