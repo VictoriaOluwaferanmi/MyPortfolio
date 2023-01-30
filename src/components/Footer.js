@@ -33,7 +33,7 @@ const Footer = () => {
     {
       id: 5,
       name: "Articles",
-      href: "#contact",
+      href: "https://victoriaoluwaferanmi.medium.com/",
     },
   ];
 

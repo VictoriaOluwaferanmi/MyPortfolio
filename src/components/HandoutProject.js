@@ -9,18 +9,22 @@ const HandoutProject = () => {
           <h3 className="text-[24px] font-bold text-transparent leading-2 pr-[5px] bg-clip-text bg-gradient-to-r from-fuchsia-800 via-red-400 to-orange-700 py-2 ">
             Team Based Project
           </h3>
-          <h1 className="font-bold text-[30px]"> Handout </h1>
+          <h1 className="font-bold text-[20px] md:text-[30px]"> Handout </h1>
         </div>
 
         <div className=" w-1/2 py-5">
           <div className="flex justify-between ">
             <div>
-              <p className="font-bold text-[30px] py-2">My Role</p>
-              <p className="text-[20px]">Frontend developer </p>
+              <p className="font-bold text-[20px]  md:text-[30px] py-2">
+                My Role
+              </p>
+              <p className="text-[16px] md:text-[20px]">Frontend developer </p>
             </div>
             <div>
-              <p className="font-bold text-[30px] py-2">Timeline</p>
-              <p className="text-[20px]">Oct-Dec 2022</p>
+              <p className="font-bold text-[20px]  md:text-[30px] py-2">
+                Timeline
+              </p>
+              <p className="text-[16px]  md:text-[20px]">Oct-Dec 2022</p>
             </div>
           </div>
         </div>
